@@ -5,8 +5,8 @@ public abstract class Algoritmos {
 	/**
 	 * Devuelve el factorial del numero especificado.
 	 * 
-	 * @param numero el numero del que queremos calcular el factorial.
-	 * @return total del factorial del numero especificado.
+	 * @param numero 			el numero del que queremos calcular el factorial.
+	 * @return factorial		total del factorial del numero especificado.
 	 */
 	public static int Factorial(int numero) {
 		int factorial = 1;
@@ -20,6 +20,12 @@ public abstract class Algoritmos {
 
 	}
 
+	/**
+	 * Devuelve el fibonacci del numero especificado.
+	 * 
+	 * @param numero 			el numero del que queremos calcular el fibonacci.
+	 * @return fibonacci 		total del fibonazzi del numero especificado.
+	 */
 	public static int Fibonacci(int numero) {
 		int num1 = 0, num2 = 1, fibonacci = 1;
 		System.out.println(num1);
@@ -32,7 +38,12 @@ public abstract class Algoritmos {
 		return fibonacci;
 	}
 	
-	
+	/**
+	 * Devuelve si el numero especificado es o no primo.
+	 * 
+	 * @param numero 			el numero del que queremos calcular si es primo o no.
+	 * @return primo 			variable que indica si el numero especificado es primo o no.
+	 */
 	public static boolean esPrimo(int numero) {
 		boolean primo = false;
 		int div;

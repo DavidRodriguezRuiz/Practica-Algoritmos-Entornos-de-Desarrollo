@@ -15,7 +15,6 @@ public class Principal {
 		
 		for (int i=1; i<=numeros.length; i++) {
 			numero = numeros[i];
-			Factorial(numero);
 		}
 		
 	}
