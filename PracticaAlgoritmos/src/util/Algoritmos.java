@@ -31,4 +31,26 @@ public abstract class Algoritmos {
 		}
 		return fibonacci;
 	}
+	
+	
+	public static boolean esPrimo(int numero) {
+		boolean primo = false;
+		int div;
+		if (numero == 1) {
+			System.out.println("No es primo");
+		} else {
+			div = 2;
+			while (numero % div != 0) {
+				div++;
+			}
+			if (div == numero) {
+				System.out.println("Primo");
+				primo = true;
+			} else {
+				System.out.println("No es primo");
+				primo = false;
+			}
+		}
+		return primo;
+	}
 }
