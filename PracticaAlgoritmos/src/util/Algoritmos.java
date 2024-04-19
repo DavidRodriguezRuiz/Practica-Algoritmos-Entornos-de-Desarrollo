@@ -2,7 +2,24 @@ package util;
 
 public abstract class Algoritmos {
 
-	/**
+	int numero;
+	
+	public Algoritmos() {
+    }
+    
+    public Algoritmos(int numero) {
+        this.numero = numero;
+    }
+	
+	public int getnumero(){
+        return numero;
+    }
+	
+    public void setnumero(int numero){
+        this.numero = numero;
+    }
+	
+    /**
 	 * Devuelve el factorial del numero especificado.
 	 * 
 	 * @param numero 			el numero del que queremos calcular el factorial.
